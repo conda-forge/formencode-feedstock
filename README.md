@@ -14,14 +14,15 @@ Summary: HTML form validation, generation, and conversion package
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/formencode-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/formencode-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/formencode-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/formencode-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/formencode-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/formencode-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/formencode-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/formencode-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/formencode/badges/version.svg)](https://anaconda.org/conda-forge/formencode)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/formencode/badges/downloads.svg)](https://anaconda.org/conda-forge/formencode)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-formencode-green.svg)](https://anaconda.org/conda-forge/formencode) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/formencode.svg)](https://anaconda.org/conda-forge/formencode) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/formencode.svg)](https://anaconda.org/conda-forge/formencode) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/formencode.svg)](https://anaconda.org/conda-forge/formencode) |
 
 Installing formencode
 =====================
