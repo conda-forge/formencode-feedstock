@@ -1,6 +1,5 @@
 {% set name = "FormEncode" %}
-{% set version = "2.0.0" %}
-{% set hash_value = "f2eb92297417eb64e4aa8e368783a5ac1311e385d4f3ff3a181090608ea83711" %}
+{% set version = "2.0.1" %}
 
 package:
   name: {{ name|lower }}
@@ -8,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: {{ hash_value }}
+  sha256: 8f2974112c2557839d5bae8b76490104c03830785d923abbdef148bf3f710035
 
 build:
   number: 0
   noarch: python
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -34,10 +33,10 @@ about:
   home: http://formencode.org
   license: MIT
   license_file: LICENSE.txt
-  summary: 'HTML form validation, generation, and conversion package'
+  summary: HTML form validation, generation, and conversion package
   dev_url: https://github.com/formencode/formencode
 
 extra:
   recipe-maintainers:
-   - windelbouwman
-   - synapticarbors
+    - windelbouwman
+    - synapticarbors
