@@ -118,5 +118,4 @@ Feedstock Maintainers
 =====================
 
 * [@synapticarbors](https://github.com/synapticarbors/)
-* [@windelbouwman](https://github.com/windelbouwman/)
 
