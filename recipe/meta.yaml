@@ -1,5 +1,5 @@
 {% set name = "FormEncode" %}
-{% set version = "2.0.1" %}
+{% set version = "2.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8f2974112c2557839d5bae8b76490104c03830785d923abbdef148bf3f710035
+  sha256: eb74d223078a28cf015fa88966c6e34f2d18d75127318d65c144bed9afc4263f
 
 build:
   number: 0
